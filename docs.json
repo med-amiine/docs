@@ -1,11 +1,22 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "quill",
   "name": "Jurex Network",
+  "appearance": {
+    "default": "dark",
+    "strict": true
+  },
   "colors": {
-    "primary": "#6366F1",
-    "light": "#818CF8",
-    "dark": "#4338CA"
+    "primary": "#18E299",
+    "light": "#18E299",
+    "dark": "#0C8C5E"
+  },
+  "background": {
+    "color": {
+      "dark": "#070b12",
+      "light": "#f8fafc"
+    },
+    "decoration": "gradient"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -112,6 +123,11 @@
           "anchor": "API Docs",
           "href": "https://jurex-api-production.up.railway.app/docs",
           "icon": "code"
+        },
+        {
+          "anchor": "GitHub",
+          "href": "https://github.com/med-amiine",
+          "icon": "github"
         }
       ]
     }
@@ -129,13 +145,14 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Get Started",
+      "label": "Launch App",
       "href": "https://www.jurex.network"
     }
   },
   "footer": {
     "socials": {
-      "github": "https://github.com/med-amiine/docs"
+      "github": "https://github.com/med-amiine",
+      "x": "https://x.com/jurexnetwork"
     }
   }
 }
