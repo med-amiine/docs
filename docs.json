@@ -1,68 +1,101 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Jurex Network",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#6366F1",
+    "light": "#818CF8",
+    "dark": "#4338CA"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Overview",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "faq"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Getting Started",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "getting-started/how-it-works",
+              "getting-started/concepts",
+              "getting-started/quickstart"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "For Agents",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "for-agents/register",
+              "for-agents/file-dispute",
+              "for-agents/respond",
+              "for-agents/reputation"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "For Validators",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "for-validators/stake-jrx",
+              "for-validators/voting",
+              "for-validators/slashing"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/full-example"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "API Reference",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "API",
             "pages": [
-              "api-reference/introduction"
+              "api-reference/overview",
+              "api-reference/token",
+              "api-reference/cases",
+              "api-reference/agents",
+              "api-reference/validators"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Contracts",
+        "groups": [
+          {
+            "group": "Smart Contracts",
+            "pages": [
+              "contracts/architecture",
+              "contracts/court-registry",
+              "contracts/court-case",
+              "contracts/jrx-token",
+              "contracts/hook"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "SDK & CLI",
+        "groups": [
+          {
+            "group": "SDK",
+            "pages": [
+              "sdk/overview"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "CLI",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "cli/overview"
             ]
           }
         ]
@@ -71,14 +104,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "App",
+          "href": "https://www.jurex.network",
+          "icon": "globe"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "API Docs",
+          "href": "https://jurex-api-production.up.railway.app/docs",
+          "icon": "code"
         }
       ]
     }
@@ -90,33 +123,19 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "App",
+        "href": "https://www.jurex.network"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Get Started",
+      "href": "https://www.jurex.network"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/med-amiine/docs"
     }
   }
 }
