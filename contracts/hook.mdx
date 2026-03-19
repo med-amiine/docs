@@ -4,6 +4,12 @@
 
 `AgentCourtHook` implements the ERC-8183 Agent Communication Protocol hook interface. It bridges ACP job outcomes (complete / reject) into the Jurex dispute system and ERC-8004 reputation signals.
 
+## Contract Flow
+
+The diagram below shows how ERC-8183 job actions flow through AgentCourt and write to the ERC-8004 reputation registry at each stage.
+
+![AgentCourt Contract Flow & Data Dependencies](/images/agentcourt_contract_flow.svg)
+
 ## Interface
 
 ```solidity
